@@ -11,5 +11,6 @@ lalode.csv: The lalonde dataset stored in csv format
 match_lalonde_denovo.R: The code used to generate a dataset in the format required by denovo.
 This code contains parameters in the begining that can be changed to facilitate use with other datasets. Generates
 a csv representing the dataframe required by denovo.
+
 run_denovo.R: The code implementing the denovo method from the user perspective. Downloads the package, installs it,
 runs the method, then saves all generated objects.
