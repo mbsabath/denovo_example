@@ -6,11 +6,11 @@ and a file that uses the matched data in the implementation of the denovo method
 
 # Files
 
-_lalonde.csv_: The lalonde dataset stored in csv format
+**lalonde.csv**: The lalonde dataset stored in csv format
 
-_match_lalonde_denovo.R_: The code used to generate a dataset in the format required by denovo.
+**match_lalonde_denovo.R**: The code used to generate a dataset in the format required by denovo.
 This code contains parameters in the begining that can be changed to facilitate use with other datasets. Generates
 a csv representing the dataframe required by denovo.
 
-_run_denovo.R_: The code implementing the denovo method from the user perspective. Downloads the package, installs it,
+**run_denovo.R**: The code implementing the denovo method from the user perspective. Downloads the package, installs it,
 runs the method, then saves all generated objects.
